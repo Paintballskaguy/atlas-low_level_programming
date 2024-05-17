@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main: script to print various types.
+ * main: script to print various types and their byte size.
  * Return: return should be void because no return
 */
 int main(void)
