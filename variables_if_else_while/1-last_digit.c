@@ -1,9 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main random number generation */
-
-/* return should be 0 */
+/* main - random number generation */
+/* Return should be 0 */
 int main(void)
 {
 	int n;

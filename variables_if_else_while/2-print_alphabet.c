@@ -1,6 +1,8 @@
 #include <stdio.h>
-/* Main this code will print out the alaphabit in lowercase */
-/* return should be 0*/
+/* 
+* main: this code will print out the alaphabit in lowercase.
+* return: should be 0.
+*/
 
 int main(void)
 {
