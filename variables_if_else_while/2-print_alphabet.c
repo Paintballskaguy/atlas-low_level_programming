@@ -2,12 +2,12 @@
 /* main this code will print out the alaphabit in lowercase */
 /* return should be 0*/
 
-int main()
+int main(void)
 {
-	for (int A = 'a'; A <= 'z'; A++) 
+	for (int A = 'a'; A <= 'z'; A++)
 {
 	putchar(A);
 }
 	putchar('\n');
-	return(0);
+	return (0);
 	}
