@@ -1,7 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main: entry point is the random number generation */
+/*
+ * main: entry point is the random number generation
+ */
 
 /* return expected is the printf phrase */
 int main(void)
@@ -12,11 +14,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is positive\positive", n);
+		printf("%d is positive\n", n);
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else if (n < 0)
-		printf("%d is negative\n", m);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
