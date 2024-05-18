@@ -1,11 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main: entry point is the random number generation
- */
-
+/* main entry point is the random number generation*/
 /* return expected is the printf phrase */
+
 int main(void)
 {
 	int n;
