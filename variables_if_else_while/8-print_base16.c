@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(x + '0');
 	}
-	for (let = 'a'; let <= 'f'; let++)
+	for (let = 'a'; let <= 'g'; let++)
 	{
 		putchar(let);
 	}
