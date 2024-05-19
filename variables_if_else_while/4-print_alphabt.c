@@ -3,7 +3,7 @@
  * main: entry point is printing alphabet in lowercase.
  * Return: return should be 0 (success)
  */
-int main (void)
+int main(void)
 {
 	char A;
 
