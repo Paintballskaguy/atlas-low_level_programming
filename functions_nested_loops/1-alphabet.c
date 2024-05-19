@@ -4,16 +4,15 @@
  * main - checks the code
  * return - always 0
 */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char x = 'a';
 
 	while(x <= 'z')
 	{
-		putchar(x);
+		_putchar(x);
 	}
-	putchar('\n');
-
-	return (0);
+		(x++);
+	_putchar('\n');
 }
 
