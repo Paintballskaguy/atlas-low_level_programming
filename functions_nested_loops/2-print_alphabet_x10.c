@@ -5,6 +5,10 @@
  * return - always 0.
 */
 
+/*
+ * void print_alphabet should print alphabet 10x and stop
+*/
+
 void print_alphabet_x10(void)
 {
 	int i;
