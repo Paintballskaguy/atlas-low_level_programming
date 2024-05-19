@@ -7,7 +7,7 @@ int main (void)
 {
 	char A;
 
-	while (A = 'a'); (A <= 'z'); (A++);
+for (A = 'a'; A <= 'z'; A++);
 	{
 		if (A != 'q' && A != 'e');
 		{
