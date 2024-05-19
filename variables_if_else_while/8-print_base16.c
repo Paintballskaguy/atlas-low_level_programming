@@ -12,8 +12,8 @@ int main(void)
 	{
 		putchar(x + '0');
 	}
-	{
 	for (let = 'a'; let <= 'f'; let++)
+	{
 		putchar(let);
 	}
 	putchar('\n');
