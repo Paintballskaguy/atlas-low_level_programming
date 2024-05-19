@@ -8,11 +8,11 @@ int main(void)
 	int x;
 	char let;
 	
-	for (x = 0; x < 16; x++)
+	for (x = 0; x < 10; x++)
 	{
 		putchar(x + '0');
 	}
-	for (let = 'a'; let <= 'g'; let++)
+	for (let = 'a'; let < 'g'; let++)
 	{
 		putchar(let);
 	}
