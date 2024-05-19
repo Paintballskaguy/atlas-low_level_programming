@@ -6,8 +6,8 @@
 int main (void)
 {
 	char A;
-	{
-	while (A = 'a', A <= 'z', A++);
+
+	while (A = 'a'); (A <= 'z'); (A++);
 	{
 		if (A != 'q' && A != 'e');
 		{
@@ -17,6 +17,6 @@ int main (void)
 	putchar ('\n');
 
 	return (0);
-	}
+
 }
 
