@@ -30,15 +30,14 @@ void times_table(void)
 				if (total < 10)
 				{
 					_putchar(' ');
-					_putchar(total + '0');
 				}
 				else
 				{
 					_putchar((total / 10) + '0');
-					_putchar((total % 10) + '0');
 				}
+				_putchar((total % 10) + '0');
 			}
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
