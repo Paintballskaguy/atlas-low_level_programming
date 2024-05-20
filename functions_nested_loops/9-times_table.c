@@ -18,7 +18,7 @@ void times_table(void)
 		{
 			total = row * col;
 
-			if (col = '0')
+			if (col == 0)
 			{
 				_putchar(total + '0');
 			}
