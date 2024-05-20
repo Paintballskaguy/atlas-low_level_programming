@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
  * this script will do multiplcation tables.
@@ -12,7 +12,7 @@ void times_table(void)
 	int col;
 	int total;
 
-	for (row = '0'; row <=9; row++)
+	for (row = '0'; row <= 9; row++)
 	{
 		for (col = '0'; col <= 9; col++)
 		{
