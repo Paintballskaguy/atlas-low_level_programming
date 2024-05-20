@@ -2,7 +2,7 @@
 
 /**
  * _abs : script that will write a function that computes absolute value.
- * @x : number to be checked
+ * @x : number to be checkeid
  * return: Always 0 for success
  */
 
@@ -10,6 +10,7 @@ int _abs(int x)
 {
 	if (x <= 0)
 	{
-		_putchar(x);
+		return (x);
 	}
+	return (-x);
 }
