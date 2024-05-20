@@ -6,7 +6,7 @@
  * @hour - hour counter
  * @minute - minute counter
  */
-int jack_bauer(void)
+void jack_bauer(void)
 {
 	int hour;
 	int minute;
