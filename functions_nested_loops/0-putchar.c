@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - script to print _putchar.
- * return - successful with a return of 0.
-*/
+ * main - initialize the script to print this out.
+ * Return: successful is 0.
+ */
+
 int main(void)
 {
 	_putchar('_');
