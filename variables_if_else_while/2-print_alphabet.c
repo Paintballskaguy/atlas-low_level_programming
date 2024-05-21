@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 /**
-* main - this code will print out the alaphabit in lowercase.
-*
-* return - Always 0
-*/
+ * main - Prints the alphabet in lowercase.
+ *
+ * Description: This script prints the letters of the alphabet
+ * in lowercase followed by a new line.
+ *
+ * Return: Always 0.
+ */
 
 int main(void)
 {
