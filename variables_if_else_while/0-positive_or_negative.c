@@ -1,8 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+
+/**
 * main - Function and main entry
+*
 * Return: Always 0 (successful)
 */
 
