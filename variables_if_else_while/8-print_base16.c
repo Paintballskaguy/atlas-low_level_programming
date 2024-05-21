@@ -3,7 +3,8 @@
 /**
  * main - Entry point to script printing all numbers from base 16 in lowercase.
  *
- * Description: This script prints all numbers from base 16 (hexadecimal) in lowercase.
+ * Description: This script prints all numbers from
+ * base 16 (hexadecimal) in lowercase.
  *
  * Return: Always 0 (successful).
  */
