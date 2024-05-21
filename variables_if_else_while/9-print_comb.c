@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - script to print all the possible number combinations.
+ * main - Prints all possible number combinations.
  *
- * return - successful with a 0 return.
+ * Description: This script prints all possible number combinations.
+ *
+ * Return: Always 0 (success).
  */
 
 int main(void)
