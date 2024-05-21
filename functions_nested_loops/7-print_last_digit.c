@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * Script to print out the last digit of a number.
- * print_last_digit : prototype cmd to make the script work.
- * @x first inital number
- * @a - var to show the last digit x%10.
- * return - return the value of the last digit.
+ * print_last_digit - Prints the last digit of a number.
+ * @x: The number whose last digit is to be printed.
+ *
+ * Return: The value of the last digit from x.
  */
 
 int print_last_digit(int x)
