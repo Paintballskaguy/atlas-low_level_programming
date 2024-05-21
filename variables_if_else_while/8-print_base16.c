@@ -1,8 +1,12 @@
 #include <stdio.h>
-/*
- * main - entry to script is printing all numbers from base 16 in lowercase.
+
+/**
+ * main - entry to script is printing all
+ * numbers from base 16 in lowercase.
+ *
  * return - Always 0 (successful).
 */
+
 int main(void)
 {
 	int x;
