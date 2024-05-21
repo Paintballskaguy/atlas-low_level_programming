@@ -1,8 +1,11 @@
 #include <stdio.h>
-/*
+
+/**
  * main - script to print the lowercase alphabet in reverse.
+ *
  * return - 0 is a successful test.
-*/
+ */
+
 int main(void)
 {
 	char x;
