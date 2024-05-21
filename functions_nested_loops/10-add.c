@@ -5,7 +5,7 @@
  * @a: The first integer.
  * @b: The second integer.
  *
- * Description: This function takes two integers 
+ * Description: This function takes two integers
  * as input and returns their sum.
  *
  * Return: The sum of the two integers.
