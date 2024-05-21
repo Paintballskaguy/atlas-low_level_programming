@@ -2,6 +2,7 @@
 
 /**
  * this script should add two integers and return the result.
+ *
  * add - this function will add two integers and solve.
  * @a - first number.
  * @b - 2nd number.
@@ -10,5 +11,5 @@
 
 int add(int a, int b)
 {
-	return a + b;
+	return (a + b);
 }
