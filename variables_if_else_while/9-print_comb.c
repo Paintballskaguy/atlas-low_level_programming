@@ -1,8 +1,11 @@
 #include <stdio.h>
-/*
+
+/**
  * main - script to print all the possible number combinations.
+ *
  * return - successful with a 0 return.
 */
+
 int main(void)
 {
 	int x;
