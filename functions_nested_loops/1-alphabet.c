@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * Description: script to print out the alphabet
- * print_alphabet: Script to print out the alphabet 1 time.
+ * script to print out the alphabet
+ * print_alphabet : Script to print out the alphabet 1 time.
  * return - always 0 for success.
 */
 
