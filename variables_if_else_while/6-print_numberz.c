@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - this script will print out 0-10.
+ * main - Prints numbers from 0 to 10.
  *
- * return - successful with 0 return.
-*/
+ * Description: This script prints the numbers from 0 to 10.
+ *
+ * Return: Always 0 (success).
+ */
 
 int main(void)
 {
