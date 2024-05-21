@@ -1,8 +1,11 @@
 #include <stdio.h>
-/*
- * main: this script will print out 0-10.
- * return: successful with 0 return.
+
+/**
+ * main - this script will print out 0-10.
+ *
+ * return - successful with 0 return.
 */
+
 int main(void)
 {
 	int x;
