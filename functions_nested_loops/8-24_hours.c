@@ -3,7 +3,7 @@
 /**
  * jack_bauer - Prints every minute of the day in 24-hour format.
  *
- * Description: This function prints out the minutes and hours in 24-hour format.
+ * Description: This function prints out the minutes and hours.
  *
  * Return: void
  */
