@@ -1,8 +1,9 @@
 #include <stdio.h>
 /*
- * main: script to print various types and their byte size.
- * Return: return should be void because no return
-*/
+ * main - script to print various types and their byte size.
+ * Return - Always 0
+ */
+
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
