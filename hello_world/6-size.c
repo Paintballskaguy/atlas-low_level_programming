@@ -1,7 +1,12 @@
 #include <stdio.h>
-/*
- * main - script to print various types and their byte size.
- * Return - Always 0
+
+/**
+ * main - Prints the sizes of various data types.
+ *
+ * Description: This script prints the byte sizes of various data types
+ * including char, int, long int, long long int, and float.
+ *
+ * Return: Always 0.
  */
 
 int main(void)
