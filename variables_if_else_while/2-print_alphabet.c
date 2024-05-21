@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
 * main - this code will print out the alaphabit in lowercase.
 *
 * return - Always 0
