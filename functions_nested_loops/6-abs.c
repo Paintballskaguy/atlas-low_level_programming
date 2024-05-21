@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _abs : script that will write a function that computes absolute value.
- * @x : number to be checkeid
- * return: Always 0 for success
+ * _abs - computes the absolute value of an integer
+ * @x: the int to check
+ * Return: the absolute value of int
  */
 
 int _abs(int x)
