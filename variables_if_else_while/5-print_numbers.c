@@ -1,8 +1,12 @@
 #include <stdio.h>
-/*
- * main entry: printing out numbers of the base 10. 1-9
- * response: successful with 0.
+
+/**
+ * main - printing out numbers of the base 10.
+ *
+ * Return - Always 0.
+ *
  */
+
 int main(void)
 {
 	char x;
