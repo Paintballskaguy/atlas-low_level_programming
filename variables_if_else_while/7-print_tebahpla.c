@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - script to print the lowercase alphabet in reverse.
+ * main - Prints the lowercase alphabet in reverse.
  *
- * return - 0 is a successful test.
+ * Description: This script prints the lowercase alphabet
+ * in reverse order, from 'z' to 'a', followed by a new line.
+ *
+ * Return: Always 0 (success).
  */
 
 int main(void)
