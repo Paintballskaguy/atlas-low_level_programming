@@ -5,7 +5,7 @@
 /**
  * main - random number generation
  *
- * Return should be 0 
+ * Return: Always 0
  */
 
 int main(void)
