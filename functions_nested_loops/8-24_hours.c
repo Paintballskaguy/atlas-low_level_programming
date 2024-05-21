@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * Description : script that prints out the minutes and hour to 24 hours.
- * jack_bauer(void) - this is the prototype for the script.
- * @hour - hour counter
- * @minute - minute counter
+ * jack_bauer - Prints every minute of the day in 24-hour format.
+ *
+ * Description: This function prints out the minutes and hours in 24-hour format.
+ *
+ * Return: void
  */
+
 void jack_bauer(void)
 {
 	int hour;
