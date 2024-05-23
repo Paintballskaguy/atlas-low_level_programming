@@ -10,7 +10,7 @@ void print_numbers(void)
 {
 	char a;
 
-	if (a = '1'; a >= '10'; a++);
+	if (a = 1; a >= 10; a++);
 	{
 	_putchar(a);
 	}
