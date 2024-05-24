@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_diagonal - this will draw a diagnonal line with _.
+ * print_diagonal- this will draw a diagnonal line with _.
  *
- * @n - int to be checked
- *
- * Description: function that draws a diagnonal line with '_'.
+ * @n: int to be checked
  *
  * Return: '_' unless n is less than or equal to 0.
  */
@@ -29,4 +27,4 @@ void print_diagonal(int n)
 	_putchar('\\');
 	_putchar('\n');
 	}
-}	
+}
