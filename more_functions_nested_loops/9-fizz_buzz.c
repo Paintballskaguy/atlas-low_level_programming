@@ -19,15 +19,17 @@ int main(void)
 	for (pie = 0; pie <= 100; pie++)
 	{
 		if (pie % 3 == '0' && pie % 5 == '0')
-			printf ('FizzBuzz');
+
+			printf ("FizzBuzz");
+
 		else if (pie % 3 == '0')
 		{
-			printf ('Fizz');
+			printf ("Fizz");
 		}
 		else if (pie % 5 == '0')
 		{
-			printf ('Buzz');
+			printf ("Buzz");
 		}
-		printf ('\n');
+		printf ("\n");
 	}
 }
