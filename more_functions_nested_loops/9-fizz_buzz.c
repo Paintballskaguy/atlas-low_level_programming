@@ -5,7 +5,7 @@
  * main - function to print FizzBuzz if the int is a multiple
  * of 3 and 5.
  *
- * @pie: int to be checked
+ * @pie: int 
  *
  * Return: Return FizzBuzz if a number of 3 & 5.
  * Return Fizz if by 3. Return Buzz if by 5.
