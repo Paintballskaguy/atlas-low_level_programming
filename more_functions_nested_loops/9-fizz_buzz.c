@@ -20,25 +20,25 @@ int main(void)
 	{
 		if (pie % 3 == 0 && pie % 5 == 0)
 		{
-		printf ("FizzBuzz");
+		printf("FizzBuzz");
 		}
 		else if (pie % 3 == 0)
 		{
-			printf ("Fizz");
+			printf("Fizz");
 		}
 		else if (pie % 5 == 0)
 		{
-			printf ("Buzz");
+			printf("Buzz");
 		}
 		else
 		{
-			printf ("%d", pie);
+			printf("%d", pie);
 		}
 		if (pie < 100)
 		{
-		printf (" ");
+		printf(" ");
 		}
 	}
-	printf ("\n");
+	printf("\n");
 	return (0);
 }
