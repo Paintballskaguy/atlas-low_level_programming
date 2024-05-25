@@ -2,14 +2,16 @@
 #include <stdio.h>
 
 /**
- * main - function to print FizzBuzz if the int is a multiple
- * of 3 and 5.
+ * main - Prints FizzBuzz for numbers from 1 to 100.
  *
- * @pie: int 
+ * Description: This function prints the numbers
+ * from 1 to 100, but for multiples
+ * of three, it prints "Fizz" instead of the number,
+ * and for the multiples of five,
+ * it prints "Buzz". For numbers which are
+ * multiples of both three and five, it prints "FizzBuzz".
  *
- * Return: Return FizzBuzz if a number of 3 & 5.
- * Return Fizz if by 3. Return Buzz if by 5.
- *
+ * Return: Always 0 (Success).
  */
 
 int main(void)
