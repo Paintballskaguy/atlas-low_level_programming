@@ -16,7 +16,7 @@ int main(void)
 {
 	int pie;
 
-	for (pie = 0; pie <= 100; pie++)
+	for (pie = 1; pie <= 100; pie++)
 	{
 		if (pie % 3 == 0 && pie % 5 == 0)
 		{
