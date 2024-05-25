@@ -19,7 +19,7 @@ int main(void)
 	for (pie = 0; pie <= 100; pie++)
 	{
 		if (pie % 3 == '0' && pie % 5 == '0')
-
+		{	
 			printf ("FizzBuzz");
 
 		else if (pie % 3 == '0')
@@ -31,6 +31,7 @@ int main(void)
 			printf ("Buzz");
 		}
 		printf ("\n");
+		}
 	}
 	return (0);
 }
