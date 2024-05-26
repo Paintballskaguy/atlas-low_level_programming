@@ -2,11 +2,13 @@
 #include <stdio.h>
 
 /**
- * _puts: prints a string followed by new line.
- * @str: int to be tested
+ * _puts - Prints a string followed by a new line.
+ * @str: The string to be printed.
  *
- * Description:  
+ * Description: This function prints a string to stdout,
+ * followed by a new line.
  *
+ * Return: void
  */
 
 void _puts(char *str)
