@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+#include <stdio.h>
 
 /**
  * _strpbrk - locates the first occurrence in the string s
@@ -13,6 +14,8 @@
 
 char *_strpbrk(char *s, char *accept)
 {
+	char _strchr;
+
 	while (*s)
 	{
 		if (_strchr(accept, *s))
