@@ -16,7 +16,7 @@ char *_strpbrk(char *s, char *accept)
 {
 	while (*s != '\0')
 	{
-		if (*_strchr(accept, *s) != NULL)
+		if (*_strchr(accept, *s) != 0)
 		{
 			return s;
 		}
