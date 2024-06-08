@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _squrt_recursion - function to return natural square root of num.
+ * _sqrt_recursion - function to return natural square root of num.
  * @n: number to be squared.
  *
  * Return: prints the result.
