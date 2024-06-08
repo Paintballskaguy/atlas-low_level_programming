@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _print_rev_recursion - 
- * @s:
- * 
- * Return: 
+ * _print_rev_recursion - func to print out reverse string.
+ * @s: string to be reversed
+ *
+ * Return: void
  */
 
 void _print_rev_recursion(char *s)
