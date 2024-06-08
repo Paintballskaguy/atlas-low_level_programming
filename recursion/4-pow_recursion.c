@@ -5,7 +5,7 @@
  * _pow_recursion - function to return value of x raised by y.
  * @x: first number to be raised
  * @y: the exponent that will raise x.
- * 
+ *
  * Return: the result of x to the power of y.
  */
 
