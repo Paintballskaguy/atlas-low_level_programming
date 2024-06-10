@@ -2,7 +2,7 @@
 /**
  * _memcpy
  */
-int _memcpy(char *dest, char *src, unsigned int n)
+int *_memcpy(char *dest, char *src, unsigned int n)
 {
 	
 }
