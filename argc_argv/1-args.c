@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - entry point
@@ -16,7 +17,9 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		printf("%d\n", argv[i]);
+		int x = strtol(argv[i], NULL, 10);
+		result = (x);
+		printf("%d\n", result);
 	}
 	return (0);
 }
