@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
 	int i;
 
-	if (i = 0, i < argc, i++)
+	if (i = 0; i < argc; i++)
 	{
 		(void)argv;
 
