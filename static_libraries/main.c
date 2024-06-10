@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - prints a quote that I made.
+ * main - prints a quote that I made from the office.
  * 
  * Return: 0
  */
