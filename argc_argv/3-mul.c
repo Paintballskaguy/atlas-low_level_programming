@@ -6,13 +6,19 @@
  * @argc: gives the amount of arguements.
  * @argv: gives the array of arguements
  *
- * Return: Always 0 (success)
+ * Return: 0 on success and 1 on error.
  */
 
 int main(int argc, char *argv[])
 {
 	int i;
 	int result = 1;
+
+	if (argc < 3)
+	{
+		printf("Error/n")
+		return (1);
+	}
 
 	for (i = 1; i < argc; i++)
 	{
