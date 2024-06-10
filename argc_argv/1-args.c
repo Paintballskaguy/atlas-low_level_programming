@@ -12,8 +12,11 @@
 
 int main(int argc, char *argv[])
 {
-	(void)argv;
-	
-	printf("%d\n", argc);
+	if (i = 0; i < argc; i++)
+	{
+		(void)argv;
+
+		printf("%d\n", argc);
+	}
 	return (0);
 }
