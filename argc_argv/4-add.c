@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		for (x = 0; argv[i][x]!= '\0'; x++)
+		for (x = 0; argv[i][x] != '\0'; x++)
 		{
 			if (!isdigit(argv[i][x]))
 			{
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 			}
 		}
 		num = atoi(argv[i]);
-		
+
 			if (num < 0)
 			{
 				printf("Error\n");
