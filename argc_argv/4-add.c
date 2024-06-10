@@ -7,8 +7,7 @@
  * @argc: gives the amount of arguements.
  * @argv: gives the array of arguements
  * @sum: sum of positive numbers
- * @i:
- * @x:
+ *
  * Return: 0 on success and 1 on error.
  */
 
