@@ -18,7 +18,8 @@ int main(int argc, char *argv[])
 	{
 		int x = strtol(argv[i], NULL, 10);
 		result = result * x;
-		printf("%d\n", result);
 	}
+	printf("%d", result);
+	
 	return (0);
 }
