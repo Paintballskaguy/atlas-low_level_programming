@@ -6,7 +6,6 @@
  * main - entry point
  * @argc: gives the amount of arguements.
  * @argv: gives the array of arguements
- * @sum: sum of positive numbers
  *
  * Return: 0 on success and 1 on error.
  */
