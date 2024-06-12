@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * str_concat - func to concatenates two strings.
@@ -25,5 +26,5 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 
-	
+
 }
