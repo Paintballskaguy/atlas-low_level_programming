@@ -6,8 +6,8 @@
  * free_grid - Frees a 2-dimensional grid previously created by alloc_grid.
  * @grid: The address of the two-dimensional grid.
  * @height: The height of the grid.
- * 
- * Return: 
+ *
+ * Return:
  */
 
 void free_grid(int **grid, int height)
