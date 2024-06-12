@@ -3,10 +3,10 @@
 
 /**
  * create_array - func to create an array of char and int them in order
- * @size: size of bytes used
- * @c: char to be examined
+ * @size: size of array
+ * @c: char to intalize array
  *
- * Return:
+ * Return: pointer to the array or NULL if fails.
  */
 
 char *create_array(unsigned int size, char c)
@@ -19,7 +19,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	array = (char*)malloc(size * sizeof(char));
+	array = (char *)malloc(size * sizeof(char));
 	if (array == NULL)
 	{
 		return (NULL);
