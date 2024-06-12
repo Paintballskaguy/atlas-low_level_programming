@@ -22,24 +22,23 @@ char *str_concat(char *s1, char *s2)
 
 	while (s2 && s2[len2])
 		len2++;
-	
-	concat = malloc((len1 + len2 +1) * sizeof *C);
-		if (concat == NULL)
-		{}
-			return (NULL);
-		}
-		int i = 0;
-		int x = 0;
-		
-		for (i = 0; x < len2; x++)
-		{
-			concat[len1 + x] = s2[x];
-		}
 
-		for (x = 0; x < len2; x++)
-		{
-			concat[len1 + x] = s2[x];
-		}
+	concat = malloc((len1 + len2 + 1) * sizeof *C);
+	if (concat == NULL)
+		return (NULL);
 
-		return (concat);
+	int i = 0;
+	int x = 0;
+
+	for (i = 0; x < len2; x++)
+	{
+		concat[len1 + x] = s2[x];
+	}
+
+	for (x = 0; x < len2; x++)
+	{
+		concat[len1 + x] = s2[x];
+	}
+
+	return (concat);
 }
