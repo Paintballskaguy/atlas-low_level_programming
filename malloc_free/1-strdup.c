@@ -21,7 +21,7 @@ char *_strdup(char *str)
 		return (NULL);
 
 	for (length = 0; str[length] != '\0'; length++)
-; /*calculate the length of the input string*/
+	; /*calculate the length of the input string*/
 
 	dup = malloc((length + 1) * sizeof(c));
 	if (dup == NULL)
