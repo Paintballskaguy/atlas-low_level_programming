@@ -9,6 +9,7 @@
  *
  * Return: Pointer to the concatenated string (s1 + s2), or NULL on failure.
  */
+
 char *str_concat(char *s1, char *s2)
 {
 	char *concat;
