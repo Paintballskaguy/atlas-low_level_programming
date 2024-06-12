@@ -8,7 +8,8 @@
  * @width: width of array
  * @height: height of array
  *
- * Return:
+ * Return: Pointer to the allocated grid (2d array)
+ * or NULL on fail.
  */
 
 int **alloc_grid(int width, int height)
