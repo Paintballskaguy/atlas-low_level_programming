@@ -28,7 +28,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (point == NULL)
 		return (NULL);
 
-	char_pointer = (c)point;
+	char_pointer = (c * point);
 
 	for (i = 0; i < total_size; i++)
 		char_pointer[i] = 0;
