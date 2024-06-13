@@ -19,7 +19,7 @@ int *array_range(int min, int max)
 	if (min > max)
 		return (NULL);
 
-	num_el = (max - (min + 1));
+	num_el = (max - min + 1);
 
 	array = malloc(num_el * sizeof(*t));
 	if (array == NULL)
