@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdlib.c>
-#include <stdio.c>
 
 /**
  * malloc_checked - func that allocates memory to malloc.
