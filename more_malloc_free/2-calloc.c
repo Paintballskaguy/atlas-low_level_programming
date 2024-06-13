@@ -18,7 +18,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	char *char_pointer;
 	char *c;
 
-	if (nmemb == NULL || size == NULL)
+	if (nmemb == 0 || size == 0)
 		return (NULL);
 
 	total_size = (nmemb * size);
@@ -28,7 +28,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (point == NULL)
 		return (NULL);
 
-	char_pointer = ((*c)point);
+	char_pointer = (*c)point;
 
 	for (i = 0; i < total_size; i++)
 		char_pointer[i] = 0;
