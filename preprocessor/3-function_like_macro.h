@@ -1,15 +1,6 @@
-#include "main.h"
-#include <stdlib.h>
+#ifndef FUNCTION_LIKE_MACRO_H
+#define FUNCTION_LIKE_MACRO_H
 
-/**
- * main - computes the absolute value of a number (X)
- * @x: int number to be solved
- */
+#define ABS(x) ((x) < 0 ? - (x) : (x))
 
-int main()
-{
-	int x;
-
-	abs(x);
-	return (x);
-}
+#endif /* FUNCTION_LIKE_MACRO_H */
