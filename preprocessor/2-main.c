@@ -4,7 +4,7 @@
 
 /**
  * main - prints out the file name where the input is coming from.
- * 
+ *
  * Return: always 0.
  */
 
