@@ -8,6 +8,6 @@
 
 int main(int x)
 {
-	abs(x)
+	abs(x);
 	return (x);
 }
