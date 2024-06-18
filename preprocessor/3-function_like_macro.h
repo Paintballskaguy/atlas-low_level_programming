@@ -6,8 +6,10 @@
  * @x: int number to be solved
  */
 
-int main(int x)
+int main()
 {
+	int x;
+
 	abs(x);
 	return (x);
 }
