@@ -3,7 +3,9 @@
 #include <stdio.h>
 
 /**
- * this will print out the name of the file the command was pulled from
+ * main - prints out the file name where the input is coming from.
+ * 
+ * Return: always 0.
  */
 
 int main(void)
