@@ -5,7 +5,7 @@
  * struct dog - a struct representing a dog.
  * @name: name of the dog (%s)
  * @age: age of the dog (%f)
- * @owner: owner of the dog (%s)
+ * @owner: char for owner of the dog (%s)
  *
  */
 
