@@ -6,6 +6,7 @@
  * @name: name of the dog (%s)
  * @age: age of the dog (%f)
  * @owner: owner of the dog (%s)
+ *
  */
 
 struct dog
