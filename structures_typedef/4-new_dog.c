@@ -4,6 +4,32 @@
 #include <string.h>
 
 /**
+ * _strdup - Duplicates a string by allocating new memory.
+ * @str: The string to duplicate.
+ *
+ * Return: Pointer to the new string, or NULL if memory allocation fails.
+ */
+char *_strdup(const char *str)
+{
+	char *dup;
+	size_t i, len;
+
+	if (str == NULL)
+		return (NULL);
+
+	len = strlen(str);
+	dup = malloc((len + 1) * sizeof(char));
+	if (dup == NULL)
+		return (NULL);
+
+	for (i = 0; i < len; i++)
+		dup[i] = str[i];
+	dup[len] = '\0';
+
+	return (dup);
+}
+
+/**
  * new_dog - func to create a new dog struct and members.
  * @name: name of the member(dog)
  * @age: age of the dog
