@@ -1,5 +1,4 @@
 #include "function_pointers.h"
-#include "main.h"
 
 /**
  * print_name - Prints a name using the given func
