@@ -3,7 +3,7 @@
 /**
  * print_name - Prints a name using the given func
  * @name: name to be printed
- * @x: func pointer to a function that takes a char *
+ * @f: func pointer to a function that takes a char *
  *
  * Return: nothing
  */
