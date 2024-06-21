@@ -38,7 +38,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	snoop_doggy_dog->name = name_copy;
 	snoop_doggy_dog->age = age;
-	snoop_doggy_dog->owner_copy = owner;
+	snoop_doggy_dog->owner = owner_copy;
 
 	return (snoop_doggy_dog);
 }
