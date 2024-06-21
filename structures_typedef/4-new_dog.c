@@ -7,6 +7,8 @@
  * @name: name of the member(dog)
  * @age: age of the dog
  * @owner: owner name of the dog.
+ *
+ * Return: pointer to the new dog struct or NULL on fail.
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
