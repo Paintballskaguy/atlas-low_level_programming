@@ -1,7 +1,4 @@
 #include "dog.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
  * new_dog - func to create a new dog struct and members.
