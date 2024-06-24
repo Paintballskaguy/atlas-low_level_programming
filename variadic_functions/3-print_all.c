@@ -1,4 +1,6 @@
 #include "variadic_functions.h"
+#include <stdio.h>
+#include <stdarg.h>
 
 /**
  * print_all - Prints anything based on the format provided
@@ -9,56 +11,55 @@
 
 void print_all(const char * const format, ...)
 {
-	va_list args;
-	unsigned int i = 0;
-	unsigned int j = 0;
-	char *str;
-	const char t_arg[] = "cifs";
-	int printed = 0;
+    va_list args;
+    unsigned int i = 0;
+    unsigned int j;
+    char *str;
+    const char t_arg[] = "cifs";
+    int printed = 0;
 
-	va_start(args, format);
+    va_start(args, format);
 
-	while (format && format[i])
-	{
-		j = 0;
+    while (format && format[i])
+    {
+        j = 0;
 
-		while (t_arg[j])
-		{
-			if (format[i] == t_arg[j])
-			{
-				if (printed)
-					printf(", ");
-				printed = 1;
-				break;
-			} 
-			j++;
-		}
-		if (t_arg[j])
-		{
-			switch (format[i])
-			{
-				case 'c':
-					printf("%c", va_arg(args, int));
-					break;
-				case 'i':
-					printf("%d", va_arg(args, int));
-					break;
-				case 'f':
-					printf("%f", va_arg(args, double));
-					break;
-				case 's':
-					str = va_arg(args, char *);
-					if (!str)
-					{
-						printf("(nil)");
-						break;
-					}
-					printf("%s", str);
-					break;
-			} 
-		}
-		i++;
-	}
-	printf("\n");
-	va_end(args);
+        while (t_arg[j])
+        {
+            if (format[i] == t_arg[j])
+            {
+                if (printed)
+                    printf(", ");
+                printed = 1;
+                switch (format[i])
+                {
+                    case 'c':
+                        printf("%c", va_arg(args, int));
+                        break;
+                    case 'i':
+                        printf("%d", va_arg(args, int));
+                        break;
+                    case 'f':
+                        printf("%f", va_arg(args, double));
+                        break;
+                    case 's':
+                        str = va_arg(args, char *);
+                        if (!str)
+                        {
+                            printf("(nil)");
+                        }
+                        else
+                        {
+                            printf("%s", str);
+                        }
+                        break;
+                }
+                break;
+            }
+            j++;
+        }
+        i++;
+    }
+    printf("\n");
+    va_end(args);
 }
