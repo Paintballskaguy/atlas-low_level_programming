@@ -1,33 +1,37 @@
 #include "3-calc.h"
 
-int op_add(int a, int b)
-{
-	return (a + b);
-}
-int op_sub(int a, int b)
-{
-	return (a - b);
-}
-int op_mul(int a, int b)
-{
-	return (a * b);
-}
-int op_div(int a, int b)
-{
-	if (b == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
-	return (a /b);
-}
+/**
+ * main - Entry point of the program
+ * @argc: Number of arguments
+ * @argv: Array of arguments
+ *
+ * Return: 0 on success, exit with error code otherwise
+ */
 
-int op_mod(int a, int b)
+int main(int argc, char *argv[])
 {
-	if (b == 0)
+	int num1, num2, result;
+	int (*op_func)(int, int);
+
+	if (argc != 4)
 	{
 		printf("Error\n");
-		exit(100);
+		exit(99);
 	}
-	return (a % b);
+
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[3]);
+
+	op_func = get_op_func(argv[2]);
+
+	if (!op_func)
+	{
+		printf("Error\n");
+		exit(99);
+	}
+
+	result = op_func(num1, num2);
+	printf("%d\n", result);
+
+	return (0);
 }
