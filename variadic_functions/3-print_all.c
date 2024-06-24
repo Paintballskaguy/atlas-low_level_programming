@@ -14,6 +14,7 @@ void print_all(const char * const format, ...)
 	unsigned int j = 0;
 	char *str;
 	const char t_arg[] = "cifs";
+	int printed = 0;
 
 	va_start(args, format);
 
@@ -22,11 +23,14 @@ void print_all(const char * const format, ...)
 		j = 0;
 		while (t_arg[j]);
 		{
-			if (format[i] == t_arg[j && i])
+			if (format[i] == t_arg[j])
 			{
-				printf(", ");
+				if (printed)
+					printf(", ");
+				printed = 1;
 				break;
-			} j++;
+			} 
+			j++;
 		}
 		switch (format[i])
 		{
