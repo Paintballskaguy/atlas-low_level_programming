@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * dlistint_len_recursive - Returns the number of elements in a doubly linked list.
+ * dlistint_len_recursive - Returns the
+ * number of elements in a doubly linked list.
  * @h: Pointer to the head of the list.
  *
  * Return: The number of elements in the list.
