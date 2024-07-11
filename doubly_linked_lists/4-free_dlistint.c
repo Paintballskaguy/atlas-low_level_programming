@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_dilistint - func to free memory from the head of the list.
+ * free_dlistint - func to free memory from the head of the list.
  * @head: pointer to the head of the list
  */
 
