@@ -34,8 +34,6 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 		else
 		{
-			dlistint_t *new_node;
-
 			/*Step 4.2: Otherwise, insert the node between the current node and the next node*/
 			new_node = malloc(sizeof(dlistint_t));
 			if (new_node == NULL)
