@@ -11,6 +11,8 @@
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
+	dlistint_t *new_node;
+	
 	/*Step 1: Check if the head pointer is NULL*/
 	if (h == NULL)
 		return (NULL);
