@@ -12,7 +12,7 @@
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new_node;
-	
+
 	/*Step 1: Check if the head pointer is NULL*/
 	if (h == NULL)
 		return (NULL);
@@ -36,12 +36,12 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		{
 			dlistint_t *new_node;
 
-			/*Step 4b: Otherwise, insert the node between the current node and the next node*/
+			/*Step 4.2: Otherwise, insert the node between the current node and the next node*/
 			new_node = malloc(sizeof(dlistint_t));
 			if (new_node == NULL)
 				return (NULL);
 		}
-		new_node->n;
+		new_node->n = n;
 		new_node->next = (*h)->next;
 		new_node->prev = *h;
 
